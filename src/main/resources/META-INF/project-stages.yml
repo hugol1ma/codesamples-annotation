@@ -1,0 +1,6 @@
+swarm:
+  port:
+    offset: 0
+  context:
+    path: /
+
