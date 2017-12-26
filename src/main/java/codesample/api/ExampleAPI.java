@@ -31,7 +31,7 @@ public class ExampleAPI {
             }
     )
     @CodeSample(langs = {
-            @CodeSampleLangs(lang = "CURL", source= "curl http://localhost:8080/api/example"),
+            @CodeSampleLangs(lang = "Shell", source= "curl http://localhost:8080/api/example"),
             @CodeSampleLangs(lang = "JavaScript", source= "var http = new XMLHttpRequest();\n" +
                     "http.open('GET', 'http://localhost:8080/api/example', false);\n" +
                     "http.send();\n" +
