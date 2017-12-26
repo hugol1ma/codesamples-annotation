@@ -27,14 +27,6 @@ public class CodeSampleSwagger extends AbstractSwaggerExtension {
             return;
         }
 
-        HashMap<String, Object> vendorExt = new HashMap<>();
-        HashMap<String, String> vendorAttr = new HashMap<>();
-
-        vendorAttr.put("Java", "System.out.println(\"Teste\");return");
-        vendorAttr.put("JavaScript", "console.log(\"Teste JavaScript\");return");
-
-        vendorExt.put("x-code-samples", vendorAttr);
-
         List langs = new ArrayList();
 
         for(CodeSampleLangs l : cs.langs()){
